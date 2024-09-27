@@ -11,24 +11,24 @@
 //     },
 //   };
 
-interface IPizza {
-    size: 'small' | 'medium' | 'large',
-    toppings: string[], // додає скільки завгодно додатків
-    logSize: () => void,
-    getSize: () => string,
-    addTopping: (topping: string) => void
-  }
+// interface IPizza {
+//     size: 'small' | 'medium' | 'large',
+//     toppings: string[], // додає скільки завгодно додатків
+//     logSize: () => void,
+//     getSize: () => string,
+//     addTopping: (topping: string) => void
+//   }
   
-  const pizza: IPizza = {
-    size: 'large',
-    toppings: ['souse', 'mushrooms', 'cheese'],
-    logSize() {
-        console.log(this.size);
-    },
-    getSize() {
-        return this.size
-    },
-    addTopping(topping) {
-        this.toppings.push(topping)
-    }
-  }
+//   const pizza: IPizza = {
+//     size: 'large',
+//     toppings: ['souse', 'mushrooms', 'cheese'],
+//     logSize() {
+//         console.log(this.size);
+//     },
+//     getSize() {
+//         return this.size
+//     },
+//     addTopping(topping) {
+//         this.toppings.push(topping)
+//     }
+//   }
